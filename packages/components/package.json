@@ -1,0 +1,19 @@
+{
+  "name": "@cc-design/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^4.2.0",
+    "vue": "2.6"
+  },
+  "devDependencies": {
+    "vite-plugin-vue2": "1.3"
+  }
+}
