@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
   extends: [
     "eslint:recommended",
@@ -25,5 +26,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "vue"],
-  rules: {},
+  rules: {
+    "@typescript-eslint/no-var-requires": "off",
+  },
 };
